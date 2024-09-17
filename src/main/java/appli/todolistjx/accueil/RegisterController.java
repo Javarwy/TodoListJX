@@ -1,9 +1,9 @@
-package appli.todolistjx;
+package appli.todolistjx.accueil;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class RegisterController {
     @FXML
     private Label welcomeText;
 
