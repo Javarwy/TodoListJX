@@ -10,7 +10,7 @@ public class Database {
     private String server = "localhost";
     private String nomDeLaBase = "javafx";
     private String utilisateur = "root";
-    private String motDePasse = "";
+    private String motDePasseSQL = "";
 
     public String getUrl() throws IOException {
         String url = "jdbc:mysql://localhost/javafx?serverTimezone=UTC ";
@@ -19,7 +19,7 @@ public class Database {
 
     public Connection getConnection() throws IOException {
         try {
-            Connection cnx = DriverManager.getConnection(this.getUrl(), this.utilisateur, this.motDePasse);
+            Connection cnx = DriverManager.getConnection(this.getUrl(), this.utilisateur, this.motDePasseSQL);
             System.out.print ("Etat de connexion :");
             System.out.print (cnx.isClosed()?"fermé":"ouvert \r\n");
             return cnx;
