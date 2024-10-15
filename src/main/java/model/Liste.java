@@ -7,4 +7,11 @@ public class Liste {
             {"Nom", "nom"},
     };
 
+    public String[][] getCollones() {
+        return collones;
+    }
+
+    public void setCollones(String[][] collones) {
+        this.collones = collones;
+    }
 }

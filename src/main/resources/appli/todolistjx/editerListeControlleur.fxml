@@ -13,16 +13,16 @@
     </padding>
 
     <Label fx:id="welcomeText" />
-   <Label layoutX="91.0" layoutY="68.0" text="Ajout de ">
-      <font>
-         <Font size="20.0" />
-      </font>
-   </Label>
-   <Label text="Email" />
-   <TextField />
-   <Label text="Mot De Passe" />
-   <TextField />
-   <Button layoutX="30.0" layoutY="68.0" onAction="#onHelloButtonClick" text="Connexion" />
-   <Button onAction="#onHelloButtonClick" text="Mot de Passe oublié" />
-   <Button onAction="#onHelloButtonClick" text="Inscription" />
+    <Label layoutX="91.0" layoutY="68.0" text="Connexion">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+    <Label text="Email" />
+    <TextField />
+    <Label text="Mot De Passe" />
+    <TextField />
+    <Button layoutX="30.0" layoutY="68.0" onAction="#onHelloButtonClick" text="Connexion" />
+    <Button onAction="#onHelloButtonClick" text="Mot de Passe oublié" />
+    <Button onAction="#onHelloButtonClick" text="Inscription" />
 </VBox>

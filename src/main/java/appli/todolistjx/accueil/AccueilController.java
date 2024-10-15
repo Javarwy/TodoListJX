@@ -7,6 +7,9 @@ import javafx.scene.control.TablePosition;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseButton;
+import javafx.scene.*;
+import javafx.fxml.*;
+import appli.*;
 
 import java.awt.event.ActionEvent;
 import java.net.URL;
@@ -34,6 +37,7 @@ public class AccueilController implements Initializable {
         }
         };
 
+    @FXML
     void OnListeSelection (ActionEvent event) {
 
         if (event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 2) {
