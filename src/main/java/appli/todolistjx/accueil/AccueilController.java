@@ -10,8 +10,10 @@ import javafx.scene.input.MouseButton;
 import javafx.scene.*;
 import javafx.fxml.*;
 import appli.*;
+import model.Liste;
 
 import java.awt.event.ActionEvent;
+import java.awt.event.MouseEvent;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -22,12 +24,15 @@ public class AccueilController implements Initializable {
     }
 
     @FXML
-    private TableView<?> TableauListe;
+    private TableView<Liste> tableauListe;
 
     @Override
 
     public void initialize(URL url, ResourceBundle rb) {
-
+        String[][] collones = {
+                {"Id liste", "IdListe"},
+                {"Nom", "nom"},
+        };
         for (int i = 0 ; i < collones.length ; i++) {
 
             TableColumn<Liste, String> maCollone = new TableColumn<>(collones[i][0]);
@@ -38,7 +43,7 @@ public class AccueilController implements Initializable {
         };
 
     @FXML
-    void OnListeSelection (ActionEvent event) {
+    void OnListeSelection (MouseEvent event) {
 
         if (event.getButton() == MouseButton.PRIMARY && event.getClickCount() == 2) {
 

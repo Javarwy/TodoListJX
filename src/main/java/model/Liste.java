@@ -2,16 +2,23 @@ package model;
 
 public class Liste {
 
-    String[][] collones = {
-            {"Id liste", "IdListe"},
-            {"Nom", "nom"},
-    };
+    public int idListe;
+    public String nom;
 
-    public String[][] getCollones() {
-        return collones;
+    public int getIdListe() {
+        return idListe;
     }
 
-    public void setCollones(String[][] collones) {
-        this.collones = collones;
+    public String getNom() {
+        return nom;
+    }
+
+    public void setIdListe(int idListe) {
+        this.idListe = idListe;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
     }
 }
+
