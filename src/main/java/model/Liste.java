@@ -5,6 +5,9 @@ public class Liste {
     public int idListe;
     public String nom;
 
+    public Liste(int anInt, String string) {
+    }
+
     public int getIdListe() {
         return idListe;
     }

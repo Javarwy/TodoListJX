@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e385ad9d-d9b6-4e33-bb08-b66495c7b3ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/appli/liste/EditerListeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/appli/liste/NouvelleListeControlleur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/UtilisateurConnecte.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/appli/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appli/liste/EditerListeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/liste/ListeModifEtAjout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appli/liste/NouvelleListeControlleur.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/appli/repository/UtilisateurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/repository/UtilisateurRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/appli/todolistjx/accueil/AccueilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/todolistjx/accueil/AccueilController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Liste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Utilisateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/appli/todolistjx/editerListeControlleur.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appli/todolistjx/editer-Liste.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/UtilisateurConnecte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UtilisateurConnecte.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +115,8 @@
       <workItem from="1729538889027" duration="2216000" />
       <workItem from="1729774382573" duration="2293000" />
       <workItem from="1733834462933" duration="5481000" />
+      <workItem from="1735405657020" duration="52000" />
+      <workItem from="1735470516134" duration="3019000" />
     </task>
     <servers />
   </component>
