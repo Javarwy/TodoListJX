@@ -11,8 +11,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/appli/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/appli/liste/EditerListeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/liste/ListeModifEtAjout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/appli/liste/NouvelleListeControlleur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appli/liste/ListeModifEtAjout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/liste/ListeModifEtAjout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/appli/repository/UtilisateurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/repository/UtilisateurRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/appli/todolistjx/accueil/AccueilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appli/todolistjx/accueil/AccueilController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Liste.java" afterDir="false" />
@@ -116,7 +115,8 @@
       <workItem from="1729774382573" duration="2293000" />
       <workItem from="1733834462933" duration="5481000" />
       <workItem from="1735405657020" duration="52000" />
-      <workItem from="1735470516134" duration="3019000" />
+      <workItem from="1735470516134" duration="3956000" />
+      <workItem from="1736168687284" duration="254000" />
     </task>
     <servers />
   </component>
